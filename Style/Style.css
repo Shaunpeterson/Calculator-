@@ -1,0 +1,139 @@
+body{
+    font-weight: 500;
+    padding-top: 50px;
+}
+
+.calcDisplay{
+    height: 100px;
+    width: 435px;
+    background-color: darkgrey;
+    margin: auto;
+}
+
+.calc{
+    width: 430px;
+    margin: auto;
+}
+
+.numbers{
+    display: inline-block;
+    float: left;
+    width: 310px;
+    background-color: #c8e7ff
+}
+
+.numbers button{
+    width: 100px;
+    height: 100px;
+    margin: px;
+}
+
+.operators{
+    display: inline-block;
+    float: right;
+    width: 100px;
+    
+    padding-right: 17px;
+}
+
+.operators button{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: px;
+}
+
+.equals{
+    display: block;
+    width: 220px;
+    transform: translateX(-110px);
+}
+
+#equals{
+   width: 210px;
+    transform: translate(-110px, -106px);
+}
+
+
+
+input#input {
+    width: 408px;
+    height: 50px;
+    border-bottom: none;
+    border-start-start-radius: 5px;
+    border-start-end-radius: 5px;
+    background-color: #61a5c2;
+}
+input#answer {
+    width: 408px;
+    height: 50px;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #61a5c2;
+}
+
+button {
+  transition-duration: 0.4s;
+  border: 2px solid #90e0ef;
+  font-size: 16px
+}
+
+button:hover {
+  background-color: #61a5c2; /* blue */
+  color: white;
+}
+
+.red_button:hover {
+  background-color: red; /* red */
+  color: white;
+  border: 2px solid red;
+}
+
+button {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input {
+
+    font-size: 200%
+}
+
+
+@media screen and (max-width:768px){
+    /*If the browser window is 768px or smaller*/
+       .operators button {
+        width: 80px;
+    height: 45px;
+    display: inline-block;
+
+       }
+       .numbers button {
+    width: 60px;
+    height: 60px;
+
+    }
+    .numbers {
+    display: inline-block;
+    float: left;
+    width: 255px;
+    background-color: #c8e7ff;
+}
+.operators {
+    display: inline-block;
+    float: right;
+    width: 150px;
+    padding-right: 17px;
+}
+input#input {
+    width: 330px;
+}
+input#answer {
+    width: 330px;
+}
+}
